@@ -87,9 +87,9 @@ function copy(callback) {
  */
 function complete(callback) {
 	console.log('sending notification text message');
-	sendMessage(util.format('deploying %s to Windows Azure was a success!', projectName), function() {
+	/*sendMessage(util.format('deploying %s to Windows Azure was a success!', projectName), function() {
 		callback();
-	});	
+	});*/	
 }
 
 
