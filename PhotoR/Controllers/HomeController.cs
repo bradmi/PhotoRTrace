@@ -12,6 +12,7 @@ namespace PhotoR.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceInformation("Received request at " + DateTime.Now + "!");
             
             var container = StorageHelper.getPhotoContainer();
             var table = StorageHelper.getTable();            
@@ -28,6 +29,8 @@ namespace PhotoR.Controllers
         [HttpPost]
         public ActionResult Index(HttpPostedFileBase file)
         {
+            System.Diagnostics.Trace.TraceInformation("Received request at " + DateTime.Now + "!");
+
             try
             {                                         
                 var container = StorageHelper.getPhotoContainer();
