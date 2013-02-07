@@ -1,0 +1,23 @@
+Wed Feb 06 2013 13:50:57 GMT-0800 (Pacific Standard Time):
+{ [Error: Missing server.js/app.js file which is required for a node.js site]
+  stack: [Getter/Setter],
+  __frame: 
+   { name: 'generateNodeDeploymentScript',
+     line: 96,
+     file: 'C:\\Users\\bradmi\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\scriptgenerator\\generator.js',
+     prev: 
+      { name: 'ScriptGenerator_prototype_generateDeploymentScript__1',
+        line: 107,
+        file: 'C:\\Users\\bradmi\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\scriptgenerator\\generator.js',
+        prev: [Object],
+        offset: 6,
+        col: 4 },
+     offset: 1,
+     col: 4 },
+  rawStack: [Getter] }
+Error: Missing server.js/app.js file which is required for a node.js site
+    at createIisNodeWebConfigIfNeeded (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\scriptgenerator\generator.js:157:13)
+    at ScriptGenerator_prototype_generateNodeDeploymentScript__2 (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\scriptgenerator\generator.js:127:5)
+    at generateNodeDeploymentScript (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\scriptgenerator\generator.js:97:4)
+    at ScriptGenerator_prototype_generateDeploymentScript__1 (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\scriptgenerator\generator.js:113:4)
+    at __2 (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:158:10)

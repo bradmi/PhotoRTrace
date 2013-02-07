@@ -1,0 +1,26 @@
+Wed Jan 30 2013 11:03:31 GMT-0800 (Pacific Standard Time):
+{ [Error: Unable to locate site named bradmiPhotoR]
+  stack: [Getter/Setter],
+  __frame: 
+   { name: 'lookupSiteNameAndWebSpace',
+     line: 569,
+     file: 'C:\\Users\\bradmi\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\site.js',
+     prev: 
+      { name: '__6',
+        line: 487,
+        file: 'C:\\Users\\bradmi\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\site.js',
+        prev: undefined,
+        offset: 8,
+        col: 10 },
+     offset: 7,
+     col: 4 },
+  rawStack: [Getter] }
+Error: Unable to locate site named bradmiPhotoR
+    at ___ (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:565:20)
+    at ___ (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\node_modules\streamline\lib\callbacks\runtime.js:54:12)
+    at ___ (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:977:131)
+    at __tryCatch (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\node_modules\streamline\lib\callbacks\runtime.js:105:4)
+    at ___ (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:977:67)
+    at site_doSitesGet__16 (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:977:33)
+    at lookupSiteNameAndWebSpace (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:576:4)
+    at __6 (C:\Users\bradmi\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site.js:495:10)
